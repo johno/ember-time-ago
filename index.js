@@ -1,36 +1,24 @@
 'use strict';
 
-var path = require('path'),
-    fs   = require('fs');
+var path = require('path');
 
 function EmberTimeAgo(project) {
   this.project = project;
   this.name    = 'Ember Time Ago';
 }
 
-function unwatchTree(dir) {
-  return {
-    read: function() {
-      return dir;
-    },
-
-    cleanup: function() {
-
-    }
-  };
-}
-
 EmberTimeAgo.prototype.treeFor = function treeFor(name) {
-  var treePath = path.join('node_modules', 'ember-time-ago', name + '-addon');
+  console.log(name);
 
-  if (fs.existsSync(treePath)) {
-    return unwatchedTree(treePath);
+  if (name === 'vendor') {
+    return path.join(__dirname, 'node_modules');
+  } else if(name === 'app') {
+    return path.join(__dirname, 'app-addon');
   }
 };
 
 EmberTimeAgo.prototype.included = function included(app) {
   this.app = app;
-  this.app.import('vendor/ember-time-ago/app/helpers/time-ago-in-words.js');
 };
 
 module.exports = EmberTimeAgo;
