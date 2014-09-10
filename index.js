@@ -8,8 +8,6 @@ function EmberTimeAgo(project) {
 }
 
 EmberTimeAgo.prototype.treeFor = function treeFor(name) {
-  console.log(name);
-
   if (name === 'vendor') {
     return path.join(__dirname, 'node_modules');
   } else if(name === 'app') {
