@@ -10,6 +10,12 @@ First, you must install moment with [bower](http://bower.io):
 $ bower install --save moment
 ```
 
+Add the following import to your Brocfile.js:
+
+```js
+app.import('vendor/moment/moment.js');
+```
+
 Then, install ember-time-ago:
 
 ```
