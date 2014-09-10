@@ -30,7 +30,7 @@ EmberTimeAgo.prototype.treeFor = function treeFor(name) {
 
 EmberTimeAgo.prototype.included = function included(app) {
   this.app = app;
-  this.app.import('vendor/ember-time-ago/app');
+  this.app.import('vendor/ember-time-ago/app/helpers/time-ago-in-words.js');
 };
 
 module.exports = EmberTimeAgo;

@@ -1,6 +1,6 @@
 {
   "name": "ember-time-ago",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Time ago in words as an Ember addon. Integrates with ember-cli.",
   "main": "index.js",
   "ember-addon": {
