@@ -1,7 +1,7 @@
 {
   "name": "ember-time-ago",
-  "version": "1.0.1",
-  "description": "Time ago in words as an Ember addon. Integrates with ember-cli.",
+  "version": "1.0.2",
+  "description": "This addon has been replaced by ember-cli-dates",
   "main": "index.js",
   "ember-addon": {
     "main": "index.js"
@@ -16,11 +16,7 @@
   "keywords": [
     "ember-addon",
     "ember",
-    "time",
-    "time",
-    "ago",
-    "in",
-    "words"
+    "time"
   ],
   "author": "John Otander",
   "license": "MIT",
@@ -28,7 +24,4 @@
     "url": "https://github.com/johnotander/ember-time-ago/issues"
   },
   "homepage": "https://github.com/johnotander/ember-time-ago",
-  "dependencies": {
-    "moment": "^2.8.3"
-  }
 }

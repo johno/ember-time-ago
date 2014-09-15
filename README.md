@@ -1,5 +1,10 @@
 # Time Ago in Words
 
+This addon has been deprecated.
+
+Please see <https://github.com/johnotander/ember-cli-dates> for the current
+version.
+
 An [ember-cli](http://ember-cli.com) addon for computing the time ago in words with moment.js.
 
 ## Installation
