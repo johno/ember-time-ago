@@ -1,7 +1,7 @@
 {
   "name": "ember-time-ago",
   "version": "1.0.2",
-  "description": "This addon has been replaced by ember-cli-dates",
+  "description": "This addon has been replaced by ember-cli-dates.",
   "main": "index.js",
   "ember-addon": {
     "main": "index.js"
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/johnotander/ember-time-ago/issues"
   },
-  "homepage": "https://github.com/johnotander/ember-time-ago",
+  "homepage": "https://github.com/johnotander/ember-time-ago"
 }
